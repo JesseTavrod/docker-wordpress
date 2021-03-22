@@ -1,0 +1,189 @@
+
+/* config Gerais */
+
+:root{
+    font-size: 16px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: 'Arial';
+}
+
+a{
+    text-decoration: none;
+}
+div{
+    box-sizing: border-box;
+}
+button:active, button, button:hover, div, a{
+    outline: none;
+}
+
+main{
+    padding: 20px 0px;
+}
+/* /* config Gerais */
+
+header{
+    background: black;
+}
+
+header .block-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+header .block-header nav ul{
+    display: flex;
+}
+header .block-header nav ul a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+}
+
+header .block-header nav ul a:hover{
+    transition: 0.3s ease all;
+    color: #2ad0d2;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+
+.contact-animals{
+    position: relative;  /* Conseguir deixar os slick-arrows posicionados por esse elemento */
+    margin: 0px -15px;    
+}
+
+.contact-animals .item{
+    padding: 10px;
+}
+
+.contact-animals .box{
+    border: 1px solid #646464;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.contact-animals img{
+    object-fit: cover;
+    height: 200px;
+    max-width: 100%;
+}
+
+.contact-animals .box-content{
+    padding: 25px;
+}
+
+.contact-animals .box-content a{
+    color: black;
+}
+
+
+/* carrossel */
+
+.setas-next{   
+    right: 10px;
+}
+.setas-prev{
+    left: 10px;
+    transform: rotate(180deg);
+   
+}
+.setas-slick{
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    bottom: -50px;
+    border: none;
+    display: inline-block;
+
+}
+.setas-slick svg{
+    height: 50px;
+    width: 50px;
+}
+/* carrossel */
+
+/* Single-Contantos */
+
+.banner-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: white;
+}
+
+.bloco-content{
+    display: flex;
+
+}
+.bloco-content img{
+    max-width: 300px;
+}
+
+.bloco-content .info{
+    padding: 20px;
+}
+.bloco-content .info span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.bloco-content .info > div{
+    margin-bottom: 20px;
+}
+
+
+/* API */
+
+table{
+    width: 100%;
+}
+td, th{
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(1n+3){
+    background: blue;
+}
+
+tr:nth-child(2n+3){
+    background: red;
+}
+
+tbody tr:first-child{
+    background: grey;
+}
+tbody tr:nth-child(2){
+    background:rebeccapurple;
+}
+
+tbody tr:last-child{
+    background: purple;
+}
+
+h2.title-single:after{
+    content: "";
+    height: 2px;
+    background: black;
+    width: 100%;
+    display: inline-block;
+}
+
+
