@@ -1,5 +1,9 @@
-##Configurando wordpress com docker
+##Wordpress com Docker e Docker-compose
 
-//sudo docker compose up -d
+##Após puxar o repositorio para sua maquina:
+
+// $ sudo docker-compose up -d
+
+
 
 
