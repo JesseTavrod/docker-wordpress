@@ -4,6 +4,9 @@
 
 // $ sudo docker-compose up -d
 
+// localhost:8080/wp-admin
+
+// usur: admin  Senha: admin123
 
 
 
